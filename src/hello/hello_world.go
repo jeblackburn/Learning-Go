@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-    greeting := "world!"
+    greeting := "world!!!"
     if len(os.Args) > 1 {
         greeting = strings.Join(os.Args[1:], " ")
     }
